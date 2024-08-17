@@ -52,6 +52,8 @@ You should implement next methods:
 Use [fiber](https://github.com/gofiber/fiber) or any other golang framework.
 Create [Swagger](https://github.com/go-swagger/go-swagger) documentation.
 
+# The task was completed:
+
 # 1. Deploy Smart Contract on Sepolia Testnet using Alchemy
 
 See [README.md](index_manager/README.md) in `index_manager` directory.
