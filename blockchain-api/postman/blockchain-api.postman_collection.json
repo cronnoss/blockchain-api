@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "35671de8-fd8b-41e6-a38f-96d608821fe2",
+		"name": "blockchain-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4033210",
+		"_collection_link": "https://restless-astronaut-380866.postman.co/workspace/cronnoss_workspace~cc27aea7-7e1e-48b9-804d-842fbcdf129b/collection/4033210-35671de8-fd8b-41e6-a38f-96d608821fe2?source=collection_link"
+	},
+	"item": [
+		{
+			"name": "/groups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/v1/groups",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"v1",
+						"groups"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/groups/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/v1/groups/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"v1",
+						"groups",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/indexes/101",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/v1/indexes/101",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"v1",
+						"indexes",
+						"101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/blocks/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/v1/blocks/1",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"v1",
+						"blocks",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/blocks/1/header",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/v1/blocks/1/header",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"v1",
+						"blocks",
+						"1",
+						"header"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

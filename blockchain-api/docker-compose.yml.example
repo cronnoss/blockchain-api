@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: app
+    ports:
+     - "9090:9090"
+    environment:
+      HTTP_ADDR: ":9090"
+      ALCHEMY_ENDPOINT: "https://eth-sepolia.g.alchemy.com/v2/-CKP5555555555555555555555555555"
+      CONTRACT_ADDRESS: "0xA655555555555555555555555555555555555555"
+
+    command: "./app"
