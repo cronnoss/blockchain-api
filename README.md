@@ -1,7 +1,5 @@
 ![Github CI/CD](https://github.com/cronnoss/blockchain-api/actions/workflows/go.yml/badge.svg)
-[![Go Report](https://goreportcard.com/badge/github.com/cronnoss/blockchain-api)](https://goreportcard.com/report/github.com/cronnoss/blockchain-api/blockchain-api)
 ![Repository Top Language](https://img.shields.io/github/languages/top/cronnoss/blockchain-api.svg)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/cronnoss/blockchain-api/blockchain-api.svg)
 ![GitHub Open Issues](https://img.shields.io/github/issues/cronnoss/blockchain-api.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/cronnoss/blockchain-api.svg)
 ![GitHub contributors](https://img.shields.io/github/contributors/cronnoss/blockchain-api.svg)
